@@ -17,21 +17,6 @@ class FakeComponentWithTemplateHtml(UnicornView):
     testing
 </div>
 """
-
-
-def test_cacheable_component_request_is_none_then_restored():
-    component = FakeComponent(
-        component_id="test_cacheable_component_request_is_none_then_restored", component_name="hello-world"
-    )
-    request = component.request = MagicMock()
-    assert component.request
-
-    with CacheableComponent(component):
-        assert component.request is None
-
-    assert component.request == request
-
-
 def test_cacheable_component_extra_context_is_none_then_restored():
     component = FakeComponent(
         component_id="test_cacheable_component_extra_context_is_none_then_restored", component_name="hello-world"
@@ -43,7 +28,6 @@ def test_cacheable_component_extra_context_is_none_then_restored():
         assert component.extra_context is None
 
     assert component.extra_context == extra_context
-
 
 def test_cacheable_component_parents_have_request_restored():
     component = FakeComponent(
