@@ -65,7 +65,7 @@
 | tests/templatetags/test\_unicorn.py                                  |       15 |        0 |        0 |        0 |    100% |           |
 | tests/templatetags/test\_unicorn\_render.py                          |      283 |        0 |        0 |        0 |    100% |           |
 | tests/templatetags/test\_unicorn\_scripts.py                         |       30 |        0 |        0 |        0 |    100% |           |
-| tests/test\_cacher.py                                                |      113 |        2 |       10 |        0 |     98% |  129, 132 |
+| tests/test\_cacher.py                                                |      106 |        2 |       10 |        0 |     98% |  113, 116 |
 | tests/test\_model\_lifecycle.py                                      |       64 |        0 |        0 |        0 |    100% |           |
 | tests/test\_settings.py                                              |       46 |        0 |        0 |        0 |    100% |           |
 | tests/test\_typer.py                                                 |      114 |        2 |        0 |        0 |     98% |    15, 24 |
@@ -99,7 +99,7 @@
 | tests/views/utils/\_\_init\_\_.py                                    |        0 |        0 |        0 |        0 |    100% |           |
 | tests/views/utils/test\_construct\_model.py                          |       47 |       10 |        0 |        0 |     79% |     44-60 |
 | tests/views/utils/test\_set\_property\_from\_data.py                 |      139 |        2 |        0 |        0 |     99% |     29-30 |
-|                                                            **TOTAL** | **5577** |  **394** |  **904** |   **98** | **92%** |           |
+|                                                            **TOTAL** | **5570** |  **394** |  **904** |   **98** | **92%** |           |
 
 
 ## Setup coverage badge
